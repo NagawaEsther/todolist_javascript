@@ -58,7 +58,7 @@ It dynamically builds the HTML content for the list item using template literals
 A checkbox for marking the todo as done. The onchange event calls toggleDone() with the current item's index. The checkbox is checked based on the done property value.
 
 
-A <span> element to display the todo text. It also has a class (done for completed items) based on the done property.
+A (span) element to display the todo text. It also has a class (done for completed items) based on the done property.
 
 
 A container (div) with two buttons:
