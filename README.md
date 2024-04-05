@@ -3,6 +3,7 @@ I used an array called todos to store todo items. Each item is an object with tw
 text: The actual text content of the todo item.
 done: A boolean flag indicating whether the todo is completed (true) or not (false).
 
+
 Adding Todos:
 The addTodo() function handles adding new todos.
 It retrieves the value from the input field with the ID todoInput.
@@ -12,6 +13,7 @@ It creates a new todo object with the trimmed text and sets done to false.
 It pushes this object onto the todos array.
 It calls displayTodos() to update the UI with the new list.
 Finally, it clears the input field for the next entry.
+
 
 Displaying Todos:
 The displayTodos() function is responsible for showing the list of todos on the page.
@@ -27,6 +29,7 @@ A container (div) with two buttons:
 Finally, it appends the created list item (<li>) to the todoList element.
 Note: The todo items are dynamically generated based on the content of the todos array.
 
+
 Managing Todos:
 The deleteTodo() function removes a todo item from the list.
 It takes the index of the item to be deleted as an argument.
@@ -40,6 +43,7 @@ The toggleDone() function toggles the completion status of a todo item.
 It takes the index of the item as an argument.
 It uses a logical NOT operator (!) to flip the value of the done property for the todo at that index.
 Again, it calls displayTodos() to update the UI with the change in completion status.
+
 
 Initial Render:
 The line displayTodos(); outside any function calls this function on page load. This ensures the existing todos (if any) are displayed when the application starts.
