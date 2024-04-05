@@ -49,7 +49,7 @@ It first clears any existing content from the element with the ID todoList.
 Then, it iterates over each todo item in the todos array using forEach().
 
 
-Inside the loop, it creates a new (<li>) element for each todo item and sets its class to todo-item.
+Inside the loop, it creates a new (li) element for each todo item and sets its class to todo-item.
 
 
 It dynamically builds the HTML content for the list item using template literals (backticks). This content includes:
@@ -70,7 +70,7 @@ A container (div) with two buttons:
 "Delete" button calls deleteTodo() with the index.
 
 
-Finally, it appends the created list item (<li>) to the todoList element.
+Finally, it appends the created list item (li) to the todoList element.
 
 
 Note: The todo items are dynamically generated based on the content of the todos array.
