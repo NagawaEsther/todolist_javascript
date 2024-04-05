@@ -1,6 +1,10 @@
 Data Storage:
 I used an array called todos to store todo items. Each item is an object with two properties:
+
+
 text: The actual text content of the todo item.
+
+
 done: A boolean flag indicating whether the todo is completed (true) or not (false).
 
 
